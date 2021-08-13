@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --dark-purple: #27095c;
+}
+body{
+  background-color: aqua;
+}
+.site-header{
+  background-color: var(--dark-purple);
+  font-family: 'Roboto', sans-serif;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+}
+.currency-card{
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  
+}
+.rank{
+  float:right;
+  height: 25px;
+  width: 25px;
+  background-color: coral;
+  text-align: center;
+  border-radius: 300px
+}
+.footer{
+  background-color: var(--dark-purple);
+  font-family: 'Roboto', sans-serif;
+  margin-top: 400px;
+
+}
